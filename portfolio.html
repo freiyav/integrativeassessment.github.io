@@ -1,0 +1,142 @@
+<html>
+<head>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="portfoliostyle.css">
+</head>
+<body>
+        <a href="index.html"><img src="pictures/soar.png" class="logo"></a>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="pictures/menu.png" id="menu">
+    </div>
+    <div class="container">
+        <div class="heading">
+    <div class="head-text">
+        <small>member's</small>
+        <h1>PORTFOLIO</h1>
+    </div>
+</div>
+</div>
+<!--PORTFOLIO-->
+<section id="member-portfolio">
+<div class="mem-port">
+    <p>PORTFOLIO</p>
+    <h1>Each member's Portfolio</h1>
+</div>
+            <div class="about-box">
+                <div class="about-mem">
+                    <img src="pictures/drea.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                    <h3>Andrea Joy Natividad</h3>
+                    <hr>
+                    <p>Grade 1-8 with honors<br>
+                        Grade 9 - with high honors<br>
+                        DESPC Collaborative Publishing 1st Place (2018-2019) - elementary<br>
+                        RSPC Collaborative Publishing 2nd Place (2018-2019) - elementary<br>
+                        Math MetroBank (Team-Oral Final) 3rd place - elementary<br>
+                        Division Ict quiz bee (3rd) - elementary<br>
+                    </p>
+                    </div>
+                </div>
+                <div class="about-mem">
+                    <img src="pictures/louise.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                        <h3>Louise Lane Gegabine</h3>
+                        <hr>
+                        <p>1st place district and division level sulkas (sulat bigkas ng tula)<br>
+                            3rd place regional <br>
+                            Mandaluyong City Division Federation SPG President (2018-2019) <br>
+                            2nd place Division Science Quiz Bee<br>
+                            7th place sports writing DESPC<br>
+                            2nd Place Oratorical Contest <br>
+                            4th Place Best News Anchor (English Radio Broadcasting)<br>
+                            Consistent honor student<br>
+                            
+                        </p>
+                    </div>
+                </div>
+                <div class="about-mem">
+                    <img src="pictures/kyle.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                        <h3>Kyle Gabriel Guerra</h3>
+                        <hr>
+                        <p>Grade 1-4 with honors<br>
+                            Grade 5-6 with high honors<br>
+                            Grade 7 with honors<br>
+                            Grade 8-9 with high honors<br>
+                            Student council member- elementary<br>
+                            3rd place spoken word poetry - elemetary<br>
+                        </p>
+                    </div>
+                </div>
+                <div class="about-mem">
+                    <img src="pictures/sam.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                        <h3>Samantha Beatrice Roxas</h3>
+                        <hr>
+                        <p>3rd place declamation contest - elementary<br>
+                            eco-fashionista - elementary<br>
+                            SSG grade 7 coordinator (sy 2019-2020)<br>
+                            Honor Student <br>
+                            </p>
+                    </div>
+                </div>
+                <div class="about-mem">
+                    <img src="pictures/aljen.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                        <h3>Aljen Aguirre</h3>
+                        <hr>
+                        <p>Grade 2-4 with honors<br>
+                            Grade 4 math olympiad<br>
+                            SPG Vice President (Elementary)<br>
+                            Top 1 Overall in Mathematics 8 <br>
+                            2nd Place Badminton Division Contest <br>
+                            </p>
+                    </div>
+                </div>
+                <div class="about-mem">
+                    <img src="pictures/ayi.png">
+                    <div class="overlay"></div>
+                    <div class="characteristics">
+                        <h3>A'iesha Chantal Dayao</h3>
+                        <hr>
+                        <p>Consistent Honor Student
+                            </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+</section>
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        sideNav.style.right="-250px";
+        menuBtn.onclick = function() {
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right="0";
+                menu.src = "pictures/close.png";
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src = "pictures/menu.png";
+            }
+        }
+    </script>
+</body>
+</html>

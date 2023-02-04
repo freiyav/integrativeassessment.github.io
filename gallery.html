@@ -1,0 +1,150 @@
+<html>
+<head>
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallerystyle.css">
+</head>
+<body>
+    <body bgcolor ="FFDDD2">
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="pictures/menu.png" id="menu">
+    </div>
+    <section id="member-portfolio">
+        <div class="title-text">
+            <p>PORTFOLIO</p>
+            <h1>Member's Artworks</h1>
+        </div>
+                    <div class="about-box">
+                        <div class="about-mem">
+                            <img src="pictures/dreaarts.jpg">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                            <h3>Andrea Joy Natividad</h3>
+                            <hr>
+                            </div>
+                        </div>
+                        <div class="about-mem">
+                            <img src="pictures/lowis.PNG">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                                <h3>Louise Lane Gegabine</h3>
+                                <hr>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-mem">
+                            <img src="pictures/kyle artwork.JPG">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                                <h3>Kyle Gabriel Guerra</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="about-mem">
+                            <img src="pictures/sam artwork.PNG">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                                <h3>Samantha Beatrice Roxas</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="about-mem">
+                            <img src="pictures/aljenarts.jpg">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                                <h3>Aljen Aguirre</h3>
+                                <hr>
+                        </div>
+                        <div class="about-mem">
+                            <img src="pictures/ayiarts.jpg">
+                            <div class="overlay"></div>
+                            <div class="characteristics">
+                                <h3>A'iesha Chantal Dayao</h3>
+                                <hr>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <br><br>
+
+                <!-- AP -->
+                <center>
+                <section>
+                    <div class="engjourn">
+                        <div class="title-text">
+                        <p>OUTPUT</p>
+                        <h1>ARALING PANLIPUAN</h1>
+                          <iframe src="https://drive.google.com/file/d/1_mptCVh4y4lg0tpKolymatkriqyJOY7U/preview" width="720" height="440" allow="autoplay"></iframe> <br> <br>
+                        
+                     </div>
+                 </section>
+
+                    <!-- ENGLISH -->
+                    <section>
+                    <div class="title-text">
+                        <p>ENGLISH</p>
+                        <h1>ENGLISH</h1>
+                        <video width="720" height="440" controls>
+                         <source src="pictures/eng.mp4" type="video/mp4">
+                        </video> <br> <br>
+                         
+                     </div>
+                 </section>
+
+                 <!-- ENGJOURN -->
+                <section>
+                    <div class="engjourn">
+                        <div class="title-text">
+                        <p>ENGLISH JOURN</p>
+                        <h1>ENGLISH JOURNALISM</h1>
+                      <img src="pictures/journ.png">
+
+                        <br><br>
+                    
+                        <p align="center"> Never be a slave of your own thoughts. Sataner Tedranes Iray shares his isights on managing mental health among Grade 10 Mandsci students
+                             in the City of Mandaluyong Science High School last January 23, 2023. The talk was an ongoing effort to reduce the stigma around mental illness and mental health conditions. 
+                            As Iray stated, "It's okay to not be okay." Image by Kyle Gabriel Guerra. </p>
+                    </div></div>
+                </section>
+
+                <!-- nuc chem-->
+                <section>
+                    <div class="engjourn">
+                        <div class="title-text">
+                        <p>OUTPUT</p>
+                        <h1>NUCLEAR CHEMISTRY</h1>
+                          <video width="720" height="440" controls>
+                         <source src="pictures/nucchem.MOV" type="video/mp4">
+                        </video> <br> <br>
+                         </center>
+                     </div>
+                 </section>
+
+ <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+        sideNav.style.right="-250px";
+        menuBtn.onclick = function() {
+            if(sideNav.style.right =="-250px"){
+                sideNav.style.right="0";
+                menu.src = "pictures/close.png";
+            }
+            else{
+                sideNav.style.right="-250px";
+                menu.src = "pictures/menu.png";
+            }
+        }
+    </script>
+</body>
+</html>

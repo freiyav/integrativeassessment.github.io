@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <title>ESP</title>
+        <link rel="stylesheet" href="espstyle.css">
+    </head>
+    <body>
+        <a href="index.html"><img src="pictures/SOAR-dark.png" class="logo"></a>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="index.html">ABOUT</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="pictures/menu.png" id="menu">
+        </div>
+        <div class="container">
+            <div class="head">
+                <h1>ESP</h1>
+            </div>
+            <div class="body">
+                <section id="intro">
+                    <div class="intro-text">
+                <p>
+                   <b> Pebrero 02, 2023<br><br>
+
+Minamahal kong Cynthia,</b><br><br>
+
+                    Isang mapagpalang araw sa inyo! Ako po si Sebastian Cruz, isang estudyante mula sa City of Mandaluyong Science High School mula sa ika-10 na baitang
+<br><br>
+Isinusulat ko ang liham na ito sapagkat mayroon akong isang suliraning kinahaharap sa kasalukuyan na siyang nagpapahirap sa aking nararamdaman. Mayroon kasing isang grupo ng magkakaibigan na parating nagpapagawa ng kanilang mga gawaing pampaaralan sa akin. Bagamat hindi ko ito nais gawin, wala naman akong magagawa sapagkat kung hindi ko raw susundin ang kanilang mga gusto, tiyak na may masama raw na mangyayari sa akin. Dahil dito, hindi ko rin sila kailanmang naisumbong sa mga nakakataas sa aming paaralan o sa aking mga magulang dahil sa mga bantang parati nilang inilalagay sa aking isipan.
+<br><br>
+Sa kabila nito, minsan na rin akong tumanggi sa kanilang nais ngunit dahil dito, pinahiya nila ako sa harap ng aking mga kaibigan sa pamamagitan ng pagtatapon ng aking pagkain sa oras ng aming recess. 
+<br><br>
+Matapos ang pangyayaring ito, hindi ko na kailanmang tinangka pang tanggihan ang kanilang mga nais sapagkat nakaramdam na ako ng takot sa kung ano ang maaaring mangyari sa akin kung hindi ako sumunod sa kanilang mga hiling. Para bang sinasakal na nila ang aking pagkatao at pinipigilang gumawa ng aking sariling mga desisyon. 
+<br><br>
+Ako ay sumusulat sa inyo sa kasalukuyan upang humingi ng tulong at payo sa pagkakaroon ng karampatang aksyon at parusa laban sa aking mga mapang-aping kamagaral. Marahil ay maaari niyo akong mabigyan ng mga payo, bilang isang psychiatrist, na siyang makatutulong sa akin upang masugpo ang aking suliranin. Mayroon po ba akong maaaring gawin upang matigil na ang pang-aaping hindi ko naman nararapat maranasan?
+<br><br>
+Maraming Salamat po!
+<br><br>
+<b>Lubos na gumagalang,<br>
+    Sebastian Cruz
+    </b>
+</p>
+                </div>
+                <div class="arrowto">
+                <a href="esp-2.html"><img src="pictures/arrow.png"></a>
+            </div>   
+            </section>
+                </div>
+        </div>
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+            sideNav.style.right="-250px";
+            menuBtn.onclick = function() {
+                if(sideNav.style.right =="-250px"){
+                    sideNav.style.right="0";
+                    menu.src = "pictures/close.png";
+                }
+                else{
+                    sideNav.style.right="-250px";
+                    menu.src = "pictures/menu.png";
+                }
+            }
+        </script>
+        </body>
+        </html>

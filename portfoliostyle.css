@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#sideNav{
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #ed8d6d;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 50px 20px;
+    font-weight: bolder;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+#menuBtn{
+    width: 50px;
+    height: 50px;
+    background-color: #ed8d6d;
+    text-align: center;
+    position: fixed;
+    right: 30px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menuBtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),#ed8d6d),url(pictures/groupic.JPG);
+    background-size: cover;
+    background-position: bottom;
+}
+.logo{
+    width: 140px;
+    position: absolute;
+    top: 4%;
+    left: 10%;
+}
+.head-text{
+    text-align: center;
+    color: #fff;
+    padding-top: 180px;
+}
+.head-text h1{
+    font-size: 130px;
+    font-family: Tahoma, sans-serif;
+    font-style: italic;
+}
+.head-text small{
+    font-size: 20px;
+    font-style: italic;
+    font-family: georgia;
+    font-style: italic;
+}
+.mem-port{
+    text-align: center;
+    padding-bottom: 70px;
+    margin-top: 40px;
+}
+.mem-port p{
+    margin: auto;
+    font-size: 20px;
+    color: #ed8d6d;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.mem-port p::after{
+    content: '';
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#ed8d6d, #efefef);
+    position: absolute;
+    top: -10px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 10px;
+}
+.mem-port h1{
+    font-size: 50px;
+    font-style: italic;
+    color: #702106;
+}
+.about-box{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: auto;
+}
+.about-mem{
+    flex-basis: 48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    color: #fff;
+    position: relative;
+}
+.about-mem img{
+    width: 100%;
+    border-radius: 7px;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    border-radius: 7px;
+    cursor: pointer;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),#ed8d6d);
+    opacity: 0;
+    transition: 1s;
+}
+.about-mem:hover .overlay{
+    opacity: 1;
+}
+.characteristics{
+    width: 80%;
+    position: absolute;
+    bottom: 40%;
+    left: 50%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: 1s;
+}
+hr{
+    background: #fff;
+    height: 2px;
+    border: 0;
+    margin: 15px auto;
+    width: 60%;
+}
+.characteristics p{
+    font-size: 20px;
+}
+.about-mem:hover .characteristics{
+    bottom: 40%;
+    opacity: 1;
+}
